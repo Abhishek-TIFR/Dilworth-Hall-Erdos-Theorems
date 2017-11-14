@@ -1,0 +1,5 @@
+*.aux
+*.glob
+*.v~
+*.vo
+*.txt
