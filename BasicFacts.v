@@ -62,8 +62,6 @@ Proof.    {
       generalize H2. auto with arith. }   }
   unfold Q in H. apply H. auto with arith.   }   Qed.
 
-Check strong_induction.
-
 
 Lemma  maps_to_same: forall (U V: Type) (x y: U) (f: U-> V),
                              f x = f y ->  exists c:V, f x = c /\ f y = c.
